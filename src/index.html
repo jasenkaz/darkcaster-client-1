@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='darkcaster-client'>
   <head>
     <meta charset="utf-8">
     <title>Darkcaster</title>
     <link rel="stylesheet" href="../dist/style.css"/>
   </head>
   <body>
-
-    <script src='../dist/main.bundle.js'></script>  
+    <div ng-controller='MainController'>
+      {{ message }}
+      {{ crowbar }}
+    </div>
+    <script src='../dist/main.bundle.js'></script>
   </body>
 </html>
